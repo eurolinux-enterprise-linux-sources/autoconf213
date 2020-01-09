@@ -1,7 +1,7 @@
 Summary:    A GNU tool for automatically configuring source code
 Name:       autoconf213
 Version:    2.13
-Release:    30%{?dist}
+Release:    31%{?dist}
 License:    GPLv2+
 Group:      Development/Tools
 URL:        http://www.gnu.org/software/autoconf/
@@ -103,6 +103,9 @@ rm -rf ${RPM_BUILD_ROOT}
 %doc AUTHORS COPYING NEWS README TODO
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.13-31
+- Mass rebuild 2013-12-27
+
 * Fri Oct 18 2013 Pavel Raiskup <praiskup@redhat.com> - 2.13-30
 - disable g77 tests for RHEL7 builds
 
